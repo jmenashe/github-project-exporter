@@ -1,0 +1,47 @@
+{
+  "folders": [
+    {
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "shellLauncher.shells.windows": [
+      {
+        "shell": "${env:ProgramW6432}\\Microsoft Visual Studio\\2022\\Community\\Msbuild\\Microsoft\\VisualStudio\\NodeJs\\node.exe",
+        "label": "Node",
+        "launchName": "node"
+      }
+    ],
+    "terminals.terminals": [
+      "${env:ProgramW6432}\\Microsoft Visual Studio\\2022\\Community\\Msbuild\\Microsoft\\VisualStudio\\NodeJs\\node.exe"
+    ],
+    "search.exclude": {
+      ".vs/**/*": true,
+      ".vscode/**/*": true,
+      "**/public/**/*": true,
+      "package-lock.json": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "files.exclude": {
+      "node_modules/": true
+    },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": false,
+    "javascript.format.enable": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.options": {
+      "extensions": [".html", ".js", ".vue", ".jsx", ".py", ".pug"]
+    },
+    "eslint.validate": ["html", "javascript", "python", "pug"],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "tabnine.disable_line_regex": [
+      "^import"
+    ],
+    "tabnine.experimentalAutoImports": true,
+    "prettier.jsxSingleQuote": true
+  }
+}

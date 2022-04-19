@@ -27,7 +27,7 @@ const { GitHubQuery } = require("./github");
       },
       {
         name: "token",
-        default: process.env.TOKEN ?? undefined,
+        default: process.env.GITHUB_EXPORT_TOKEN ?? undefined,
         description: "Personal access token",
         required: true,
         type: "string",
